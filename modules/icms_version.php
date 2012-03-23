@@ -4,7 +4,7 @@
  *
  * This file holds the configuration information of this module
  *
- * @copyright	(c) 2011 David Janssens
+ * @copyright	(c) 2011-2012 David Janssens
  * @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
  * @since		1.0
  * @author		David Janssens (fiammybe) <david.j@impresscms.org>
@@ -35,8 +35,8 @@ $modversion = array(
 /**  Development information */
 	"status_version"			=> "2",
 	"status"					=> "Beta",
-	"date"						=> "Unreleased",
-	"author_word"				=> "",
+	"date"						=> "23/03/2012",
+	"author_word"				=> "A first test release of the billboard module. This release uses the Coin slider, and can only display 1 billboard",
 	"warning"					=> _CO_ICMS_WARNING_BETA,
 
 /** Contributors */
