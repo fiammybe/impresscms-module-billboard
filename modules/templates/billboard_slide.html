@@ -1,0 +1,17 @@
+<{includeq file='db:billboard_header.html'}>
+<{if $billboard_slide}>
+<div id="billboard-slide-container">
+	<h1><{$billboard_slide.title}></h1>
+		<div><b><{$smarty.const._CO_BILLBOARD_SLIDE_IMAGE}></b>:<{$billboard_slide.image}></div>
+		<div><b><{$smarty.const._CO_BILLBOARD_SLIDE_URL}></b>: <{$billboard_slide.url}></div>
+		<div><b><{$smarty.const._CO_BILLBOARD_SLIDE_CAPTION}></b></div>
+				<div><{$billboard_slide.caption}></div>
+		<div><b><{$smarty.const._CO_BILLBOARD_SLIDE_SLIDE_ORDER}></b>: <{$billboard_slide.slide_order}></div>
+
+</div>
+<{/if}>
+<{if $billboard_slide_table}>
+<h1><{$billboard_title}></h1>
+<{$billboard_slide_table}>
+<{/if}>
+<{includeq file='db:billboard_footer.html'}>

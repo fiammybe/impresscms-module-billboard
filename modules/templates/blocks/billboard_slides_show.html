@@ -1,0 +1,18 @@
+<script type="text/javascript" src="<{$xoops_url}>/libraries/coin-slider/coin-slider.min.js"></script>
+<link rel="stylesheet" href="<{$xoops_url}>/libraries/coin-slider/coin-slider-styles.css" type="text/css" />
+
+<div id='coin-slider'>
+<{foreach from=$block.slides item=slider}>
+	<a href="<{$slider.url}>" target="_blank">
+		<img src="<{$xoops_url}>/uploads/billboard/slide/<{$slider.image}>" >
+		<span>
+			<b><{$slider.title}></b><br /><{$slider.caption}>
+		</span>
+	</a>
+<{/foreach}>
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#coin-slider').coinslider({width:<{$block.config.coin_width}>, height:<{$block.config.coin_height}>, spw:<{$block.config.coin_spw}>, sph:<{$block.config.coin_sph}>, delay:<{$block.config.coin_delay}>, sDelay:<{$block.config.coin_sdelay}>, opacity:<{$block.config.coin_opacity}>, titlespeed:<{$block.config.coin_titlespeed}>, effect:'<{$block.config.coin_effect}>', navigation:<{$block.config.coin_navigation}>, links:<{$block.config.coin_links}>, hoverPause:<{$block.config.coin_hoverpause}>});
+	});
+</script>
