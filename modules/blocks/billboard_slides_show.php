@@ -34,4 +34,4 @@ function billboard_slides_show()
 	return $block;
 }
 
-?>                 
+?>

@@ -60,8 +60,8 @@ $modversion = array(
 	"hasMain"					=> 0,
 
 /** Comments information */
-	"hasComments"				=> 0,
-	
+	"hasComments"				=> 0
+	);
 /** other possible types: testers, translators, documenters and other */
 $modversion['people']['developers'][] = "David Janssens (fiammybe)";
 
