@@ -1,10 +1,10 @@
 <?php
 /**
- * Class representing Billboard slide objects
+ * Class representing Billboard slideshow objects
  *
- * @copyright    (c) 2011 David Janssens
+ * @copyright    (c) 2012 David Janssens
  * @license        http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
- * @since        1.0
+ * @since        1.1
  * @author        David Janssens (fiammybe) <david.j@impresscms.org>
  * @package        billboard
  * @version        $Id$
@@ -12,12 +12,12 @@
 
 defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
 
-class mod_billboard_Slide extends icms_ipf_Object
+class mod_billboard_Slideshow extends icms_ipf_Object
 {
     /**
      * Constructor
      *
-     * @param mod_billboard_Slide $handler Object handler
+     * @param mod_billboard_Slideshow $handler Object handler
      */
     public function __construct(&$handler)
     {
