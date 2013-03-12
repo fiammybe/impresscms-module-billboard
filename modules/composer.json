@@ -1,0 +1,11 @@
+{
+	"name": "davidjanssens/billboard",
+	"repositories": [
+		{ "type": "svn",
+			"url": "https://subversion.assembla.com/svn/impresscmsaddons/modules/billboard",
+			"trunk-path": "trunk",
+			"branches-path": false,
+			"tags-path": "releases" }
+	]
+
+}
