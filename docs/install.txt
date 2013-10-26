@@ -1,4 +1,13 @@
 How to install Billboard
 =========================
 
-Billboard is installed as a regular ImpressCMS module, which means you should copy the complete /billboard folder into the /modules directory of your website. Then, log in to your site as administrator, go to System Admin > Modules, look for the Billboard icon in the list of uninstalled modules and click in the install icon. Follow the directions in the screen and you'll be ready to go.
+The easy way : Tools module
+---------------------------
+Billboard can be installed using QM-B's excellent 'Tools' module (http://addons.impresscms.org/modules/wfdownloads/singlefile.php?cid=248&lid=1460).
+
+The not-so-easy way : manual
+----------------------------
+Billboard is installed as a regular ImpressCMS module, which means you should copy the complete /billboard folder into the /modules directory of your website.
+Then, log in to your site as administrator, go to System Admin > Modules, look for the Billboard icon in the list of uninstalled modules and click in the install icon.
+Follow the directions in the screen and you'll be ready to go.
+

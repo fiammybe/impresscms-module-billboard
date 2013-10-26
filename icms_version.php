@@ -17,7 +17,7 @@ defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
 /**  General Information  */
 $modversion = array(
 	"name"						=> _MI_BILLBOARD_MD_NAME,
-	"version"					=> 0.3,
+	"version"					=> 2.0,
 	"description"				=> _MI_BILLBOARD_MD_DESC,
 	"author"					=> "David Janssens (fiammybe)",
 	"credits"					=> "ImpressCMS core team",
@@ -34,10 +34,10 @@ $modversion = array(
 
 /**  Development information */
 	"status_version"			=> "2",
-	"status"					=> "Beta",
-	"date"						=> "23/03/2012",
-	"author_word"				=> "A first test release of the billboard module. This release uses the Coin slider, and can only display 1 billboard",
-	"warning"					=> _CO_ICMS_WARNING_BETA,
+	"status"					=> "Alpha",
+	"date"						=> "26/10/2013",
+	"author_word"				=> "Updating and extending the billboards module",
+	"warning"					=> _CO_ICMS_WARNING_ALPHA,
 
 /** Contributors */
 	"developer_website_url"		=> "http://www.impresscms.be",
@@ -88,7 +88,6 @@ $modversion['blocks'][1] = array(
   'name' => '_MI_BB_SLIDESHOWLIST',
   'description' => '_MI_BB_SLIDESHOWDSC',
   'show_func' => 'billboard_slides_show',
- // 'edit_func' => 'vfknieuws_message_list_edit',
   'template' => 'billboard_slides_show.html');
 
 /** Preferences information */
@@ -187,5 +186,3 @@ $modversion['config'][] = array(
   'formtype' => 'textbox',
   'valuetype' => 'text',
   'default' => 'true');
-/** Notification information */
-/** To come soon in imBuilding... */
