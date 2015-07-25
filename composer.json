@@ -3,7 +3,7 @@
   "description": "An ImpressCMS module to handle carousels",
   "require": {
 	"php": ">=5.4.0",
-	"impresscms/impresscms": ">=1.3.*"
+	"impresscms/impresscms": ">=1.3.6"
   }
 
 }
