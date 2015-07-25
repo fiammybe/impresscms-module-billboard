@@ -4,7 +4,7 @@
  *
  * This file holds the configuration information of this module
  *
- * @copyright	(c) 2011-2012 David Janssens
+ * @copyright		(c) 2011-2015 David Janssens
  * @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
  * @since		1.0
  * @author		David Janssens (fiammybe) <david.j@impresscms.org>
@@ -42,7 +42,7 @@ $modversion = array(
 /** Contributors */
 	"developer_website_url"		=> "http://www.impresscms.be",
 	"developer_website_name"	=> "ImpressCMS Belgium",
-	"developer_email"			=> "david.j@impresscms.org",
+	"developer_email"		=> "david.j@impresscms.org",
 
 /** Administrative information */
 	"hasAdmin"					=> 1,
