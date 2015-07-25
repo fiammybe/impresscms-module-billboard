@@ -1,11 +1,9 @@
 {
-	"name": "davidjanssens/billboard",
-	"repositories": [
-		{ "type": "svn",
-			"url": "https://subversion.assembla.com/svn/impresscmsaddons/modules/billboard",
-			"trunk-path": "trunk",
-			"branches-path": false,
-			"tags-path": "releases" }
-	]
+	"name": "impresscms/impresscms-module-billboard",
+  "description": "An ImpressCMS module to handle carousels",
+  "require": {
+	"php": ">=5.4.0",
+	"impresscms/impresscms": ">=1.3.*"
+  }
 
 }
