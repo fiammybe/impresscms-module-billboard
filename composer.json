@@ -1,9 +1,16 @@
 {
 	"name": "impresscms/impresscms-module-billboard",
   "description": "An ImpressCMS module to handle carousels",
-  "require": {
-	"php": ">=5.4.0",
-	"impresscms/impresscms": ">=1.3.6"
-  }
+      "license": "GPL-2.0",
+      "require":
+        {
+            "impresscms/module-installer-plugin": "*",
+            "impresscms/impresscms": ">1.3.0"
+        },
+        "authors": [
+        {
+            "name": "fiammybe",
+            "email": "david.j@impresscms.org"
+        }
 
 }
