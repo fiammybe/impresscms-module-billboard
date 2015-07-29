@@ -4,7 +4,7 @@
       "license": "GPL-2.0",
       "require":
         {
-            "impresscms/module-installer-plugin": "*",
+            "impresscms/composer-module-installer-plugin": "*",
             "impresscms/impresscms": ">1.3.0"
         },
         "authors": [
