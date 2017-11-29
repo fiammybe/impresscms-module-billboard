@@ -4,7 +4,7 @@
  *
  * This file holds the configuration information of this module
  *
- * @copyright		(c) 2011-2015 David Janssens
+ * @copyright		(c) 2011-2017 David Janssens
  * @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
  * @since		1.0
  * @author		David Janssens (fiammybe) <david.j@impresscms.org>
@@ -17,12 +17,12 @@ defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
 /**  General Information  */
 $modversion = array(
 	"name"						=> _MI_BILLBOARD_MD_NAME,
-	"version"					=> 2.0,
-	"description"				=> _MI_BILLBOARD_MD_DESC,
+	"version"					=> "2.0",
+	"description"					=> _MI_BILLBOARD_MD_DESC,
 	"author"					=> "David Janssens (fiammybe)",
 	"credits"					=> "ImpressCMS core team",
 	"help"						=> "",
-	"license"					=> "GNU General Public License (GPL)",
+	"license"					=> "GNU General Public License (GPL-v2)",
 	"official"					=> 0,
 	"dirname"					=> basename(dirname(__FILE__)),
 	"modname"					=> "billboard",
@@ -33,20 +33,20 @@ $modversion = array(
 	"image"						=> "images/icon_big.png", /* for backward compatibility */
 
 /**  Development information */
-	"status_version"			=> "2",
+	"status_version"				=> "2",
 	"status"					=> "Alpha",
-	"date"						=> "26/10/2013",
-	"author_word"				=> "Updating and extending the billboards module",
+	"date"						=> "29/11/2017",
+	"author_word"					=> "Updating and extending the billboards module",
 	"warning"					=> _CO_ICMS_WARNING_ALPHA,
 
 /** Contributors */
-	"developer_website_url"		=> "http://www.impresscms.be",
-	"developer_website_name"	=> "ImpressCMS Belgium",
-	"developer_email"		=> "david.j@impresscms.org",
+	"developer_website_url"				=> "http://www.impresscms.be",
+	"developer_website_name"			=> "ImpressCMS Belgium",
+	"developer_email"				=> "david.j@impresscms.org",
 
 /** Administrative information */
 	"hasAdmin"					=> 1,
-	"adminindex"				=> "admin/index.php",
+	"adminindex"					=> "admin/index.php",
 	"adminmenu"					=> "admin/menu.php",
 
 /** Install and update informations */
@@ -60,13 +60,14 @@ $modversion = array(
 	"hasMain"					=> 0,
 
 /** Comments information */
-	"hasComments"				=> 0
+	"hasComments"					=> 0
 	);
 /** other possible types: testers, translators, documenters and other */
 $modversion['people']['developers'][] = "David Janssens (fiammybe)";
+$modversion['people']['developers'][] = "Simon (Madfish)";
 
 /** Manual */
-$modversion['manual']['wiki'][] = "<a href='http://wiki.impresscms.org/index.php?title=Billboard' target='_blank'>English</a>";
+$modversion['manual']['wiki'][] = "<a href='https://github.com/IPFModules/billboard/wiki'>English</a>";
 
 /** Database information */
 $modversion['object_items'][1] = 'slide';
