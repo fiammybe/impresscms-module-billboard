@@ -9,7 +9,8 @@
         "authors": [
         {
             "name": "fiammybe",
-            "email": "david.j@impresscms.org"
+            "email": "david.j@impresscms.org",
+	    "role": "Developer"
         }
         ]
 
